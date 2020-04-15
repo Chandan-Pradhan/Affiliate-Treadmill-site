@@ -1,0 +1,195 @@
+{% extends 'home.html' %}
+{% load static %}
+
+{% block content %}
+
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('{% static 'affiliate/images/1.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Treadmill Deals!</h3>
+            <p>We offer you the best treadmills at the best prices</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url({% static 'affiliate/images/2.jpg' %})">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Exercise everyday</h3>
+            <p>stay fit</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url({% static 'affiliate/images/3.jpg' %})">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Third Slide</h3>
+            <p>This is a description for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="my-4">Codedaddy Tredmill Deals</h1>
+
+    <!-- Marketing Icons Section -->
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Card Title</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Section -->
+    <h2>Treadmills</h2>
+
+    <br>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/t6.png' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="{% url 'rex' %}">Durafit Heavy Hike 2.5 HP (Peak 5.0 HP) Motorized Foldable Treadmill with Auto-Incline
+                  by Durafit - Sturdy, Stable and Strong</a>
+            </h4>
+            <p class="card-text">2.5 HP continuous duty (CHP) DC motor | 5.0 HP Peak Output | Inclination: 16 level Auto-Incline | Running Area:1270*470 mm | Run Belt Thickness: 1.8 mm thickness | Running Belt: Special Friction Coating for added Traction | Hand-Rail Controls | Speed Range:1.0-16 km/hr</p>
+            <a href="https://www.amazon.in/TZ-3000C-Curved-Treadmill-Fitness/dp/B07RGPVDNW/ref=sr_1_1?dchild=1&keywords=treadmills&qid=1586931278&sr=8-1" class="btn btn-info">1400$</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/t1.png' %}"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">TZ- 3000C Curved Treadmill/Fitness Treadmill Self</a>
+            </h4>
+            <p class="card-text">20KG flywheel, commercial use
+              Commercial bold PVC handle bar.Two-way chain transmission.Double chip resistance system.Pull resistant way for emergency brake</p>
+                <button type="button" class="btn btn-info">1400$</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/t2.png' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Fitkit FT100 Series (3.25 HP Peak) Motorized Treadmill with Free Dietitian,Personal Trainer, Doctor Consultation and Installation Services</a>
+            </h4>
+            <p class="card-text">Free installation and service all across India. After Delivery please contact us on: [1800-572-6303/ 1800-572-6402] or WhatsApp on (+91-6260741910/ 11) (Working hours: Monday to Saturday from 10am to 7pm)</p>
+              <button type="button" class="btn btn-info">1400$</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/t3.png' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Fitkit FTK065 1.75HP (2HP Peak) Motorized Treadmill with Free Installation , Fitplus 6 Month Diet and Health Plan
+by Fitkit</a>
+            </h4>
+            <p class="card-text">Free installation and service all across India. After Delivery please contact us on: [1800-572-6303/ 1800-572-6402] or WhatsApp on (+91-6260741910/ 11) (Working hours: Monday to Saturday from 10am to 7pm</p>
+              <button type="button" class="btn btn-info">1400$</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/t4.png' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Project Five</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="{% static 'affiliate/images/t5.png' %}" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Project Six</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Features Section -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>Modern Business Features</h2>
+        <p>The Modern Business template by Start Bootstrap includes:</p>
+        <ul>
+          <li>
+            <strong>Bootstrap v4</strong>
+          </li>
+          <li>jQuery</li>
+          <li>Font Awesome</li>
+          <li>Working contact form with validation</li>
+          <li>Unstyled page elements for easy customization</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Codedaddy's Website</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+{% endblock content %}
